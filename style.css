@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+
+p{
+    font-size: 2rem;
+}
+
+
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+    
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.main-nav{
+    justify-content: space-between;
+}
+
+.nav-link ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-link{
+    flex-basis: 730px;
+}
+
+.primary-button{
+    background-color: yellow;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 12px 24px;
+    transition: all 0.3s ease-out;
+
+}
+
+.primary-button:hover{
+    background-color:#f2f200;
+}
+
+
+/*header started*/
+
+header{
+    padding: 50px 20px 0;
+}
+
+.get-started{
+    margin-top: 20px;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+/*header started*/
+
+/*feature section*/
+.feature-section{
+    padding: 30px 20px 0;
+}
+
+.feature-section-container{
+    gap: 40px;
+}
+/*feature section*/
+
+.example-cards1{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: #fff;
+    background-image: url(Payment-PNG-Transparent.png);
+}
+
+.example-cards2{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: #fff;
+    background-image: url(Payment-PNG-Transparent.png);
+}
+
+.example-cards3{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: #fff;
+    background-image: url(Payment-PNG-Transparent.png);
+}
+
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color:black;
+}
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.example-area{
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: 20px;
+}
+
+.subfooter-container{
+justify-content: center;
+gap: 30px;
+}
